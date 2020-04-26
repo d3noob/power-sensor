@@ -1,0 +1,10 @@
+[Unit]
+Description=Septic Exporter
+After=multi-user.target
+
+[Service]
+User=pi
+ExecStart=/usr/bin/python /home/pi/septic-exporter.py
+
+[Install]
+WantedBy=multi-user.target
