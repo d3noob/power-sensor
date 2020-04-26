@@ -1,0 +1,13 @@
+[Unit]
+Description=Python Current Measurement
+After=multi-user.target
+
+[Service]
+Restart=on-failure
+RestartSec=10s
+WorkingDirectory=/home/pi
+User=pi
+ExecStart=/usr/bin/python /home/pi/current.py
+
+[Install]
+WantedBy=multi-user.target
