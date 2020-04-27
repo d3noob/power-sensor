@@ -1,6 +1,6 @@
 # Power Sensor Installation Files
 
-This respository contains accompanying files for the blog post that describes the connection of an ACS712 based power sensor module with a Raspberry Pi to monitor the operation of a pump.
+This respository contains accompanying files for the [blog post](http://www.d3noob.org/2020/04/current-detection-measurement.html) that describes the connection of an ACS712 based power sensor module with a Raspberry Pi to monitor the operation of a pump.
 
 ## `current.py`
 
